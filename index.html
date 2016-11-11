@@ -5,8 +5,8 @@
 
     <title>Welnys - Proto 2.0</title>
 
-    <link rel="stylesheet" href="nomalize/style.css" media="screen" type="text/css" />
-    <link rel="stylesheet" href="reset/style.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -14,11 +14,65 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+  
 
 
   </head>
 <body>
+
+<!-- START Hidden Forms -->
+
+      <div class="info-form">
+       <div class="close-row">
+       <a href="#" class="close"><p id="p-close">X</p></a>
+       </div>
+        <div class="form-row">
+          <div class="form-box">
+            <h1 class="h1-white">Massage</h1><br>
+            <h3 class="h3-white">Fill out the form below and we'll be in touch</h3><br>
+        
+            <form>
+              
+              <input type="text" id="name" name="name" value="YOUR NAME"><br>
+              <input type="text" id="email" name="email" value="YOUR EMAIL"><br>
+              <input type="text" id="phone" name="phone" value="PHONE NUMBER"><br>
+
+              <div class="service-row">
+              <h3 class="h3">Schedule preferences:</h3><br>
+                <div class="service-box">
+                <input type="checkbox" name="day" value="Monday">Monday<br>
+                <input type="checkbox" name="day" value="Tuesday">Tuesday<br>
+                <input type="checkbox" name="day" value="Wednesday">Wednesday<br>
+                <input type="checkbox" name="day" value="Thursday">Thursday<br>
+                <input type="checkbox" name="day" value="Friday">Friday<br>
+                </div>
+                <div class="service-box">
+                <input type="checkbox" name="time" value="Morning">Morning 8(am)-12(pm)<br>
+                <input type="checkbox" name="time" value="Afternoon">Afternoon 12(pm)-4(pm)<br>
+                <input type="checkbox" name="time" value="Evening">Evening 4(pm)-8(pm)<br>
+                </div>
+                <div class="service-box">
+                  <input type="radio" name="freq" value="Weekly"><label for="CSS">Weekly</label><br>
+                  <input type="radio" name="freq" value="Bi-Weekly"><label for="JS">Bi-Weekly</label><br>
+                  <input type="radio" name="freq" value="Monthly"><label for="PHP">Monthly</label><br>
+                </div>
+              </div>
+
+
+              <textarea>MESSAGE(optional)</textarea><br>
+
+              <a href="#"><button class="button-cont">Request Booking</button></a>
+
+            </form>
+          </div>
+        </div>
+      </div> 
+
+
+<!-- END Hidden Forms -->
+
+
+
 
   <header>
       <div class="logo">
@@ -34,7 +88,7 @@
           <li class="li-login"><a href="#">LOGIN</a></li>
         </ul>
       </div> 
-  </header>
+  </header> 
 
   <div class="hero">
           <div class="hero-box">
@@ -59,7 +113,7 @@
             <img src="./images/cloud.png" alt="#">
             <h3>Massage</h3>
             <p>Reduce stress with on-site chair massage. Raises employee mood, morale, and energy. </p>
-            <button class="button-svc"><a href="#">MORE</a></button>
+            <button class="button-svc"><a href="#" class="pop-form">MORE</a></button>
             </div>
 
             <div class="svc-container">
@@ -217,7 +271,7 @@
   </footer>
 
 <script type="text/javascript" src="js/script.js"></script>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js?ver=1.12.2'></script>
+
 
 </body>
 </html>
