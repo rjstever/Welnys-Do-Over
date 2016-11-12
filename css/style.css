@@ -1,15 +1,24 @@
+/* atom-beautify for my tabbing
+
+
+c[○ - ○]כ
+
 /*
 Box Model Hack
 */
 
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
 }
 
-/* 
-Clear fix hack 
+
+/*
+Clear fix hack
 */
 
 .clearfix:after {
@@ -20,6 +29,7 @@ Clear fix hack
     line-height: 0;
     height: 0;
 }
+
 
 /*
 Google Font
@@ -33,110 +43,99 @@ font-family: 'Josefin Sans', sans-serif;
 Styles
 */
 
-
 body {
-margin: 0;
-padding: 0;
-border: 0;
-
-
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 a {
     text-decoration: none;
-
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  color: #fff;
-  font-size: 64px;
-  margin: 0;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 64px;
+    margin: 0;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  color: #fff;
-  font-size: 32px;
-  margin: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 32px;
+    padding: 15px 0px 20px 0px;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  color: #757575;
-  font-size: 28px;
-  margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #757575;
+    font-size: 28px;
+    margin: 0;
 }
 
 .h3-white {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: #fff;
-  font-size: 28px;
-  margin: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    font-size: 28px;
+    margin: 1;
 }
 
 .h3-light {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: #BDBDBD;
-  font-size: 28px;
-  margin: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #BDBDBD;
+    font-size: 28px;
+    margin: 1;
 }
-
-
 
 #bold {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
-
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-  color: #333;
-  font-size: 16px;
-  margin: 10;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #333;
+    font-size: 16px;
+    margin: 10;
 }
 
 #p-val {
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  color: #fff;
-  font-size: 72px;
-  margin: 0;
-  padding: 0px 0px 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 72px;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
 }
 
 #p-val2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #fff;
-  font-size: 18px;
-  margin: 0;
-  padding: 0px 0px 0px 0px;
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
 }
 
 #p-close {
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  text-decoration: none;
-  color: #fff;
-  font-size: 64px;
-  margin: 0;
-  padding: 25px 35px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+    font-size: 64px;
+    margin: 0;
+    padding: 25px 35px 0px 0px;
 }
 
-
-
 .button-hero {
-    background-color: #0C6; 
+    background-color: #0C6;
     border: 1px solid #fff;
     color: white;
     padding: 30px 100px;
@@ -147,7 +146,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     font-size: 16px;
-    margin: 0px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     border-radius: 40px;
 }
 
@@ -188,7 +187,7 @@ header {
     text-align: right;
 }
 
-li{
+li {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: #fff;
@@ -198,16 +197,15 @@ li{
     letter-spacing: 3px;
     text-decoration: none;
     margin: 0px 0px 0px 0px;
-    display:inline;
+    display: inline;
 }
 
 .li-login {
     font-weight: bold;
-
 }
 
-.nav-main a{
-    display:inline-block;
+.nav-main a {
+    display: inline-block;
     margin: 0px 0px 0px 0px;
     padding: 15px 0px 0px 0px;
     color: #0C6;
@@ -223,7 +221,6 @@ li{
 Hero
 //////////////////////////////////////////////////////////////////////////*/
 
-
 .hero {
     background-image: url("../images/bg2.jpg");
     background-repeat: no-repeat;
@@ -234,15 +231,13 @@ Hero
     width: 100%;
     padding: 225px 0px 0px 0px;
     background-color: #0c6;
-
 }
 
 .hero-box {
     width: 70%;
     height: 500px;
     margin: auto;
-    padding: 0px 0px 0px 0px;
-
+    padding: 0px 10px 0px 10px;
 }
 
 
@@ -257,7 +252,6 @@ Services
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #fff;
-
 }
 
 .svc-row {
@@ -266,9 +260,8 @@ Services
     width: 100%;
     margin: 15px 0px 50px 0px;
     padding: 0px;
-    background-color: #fff; 
+    background-color: #fff;
     /*    border: 1px dotted #333;    */
-
 }
 
 .svc-container {
@@ -279,11 +272,10 @@ Services
     background-color: fff;
     line-height: 1.1;
     float: left;
-
 }
 
 .button-svc {
-    background-color: #0099FF; 
+    background-color: #0099FF;
     border: 0px solid #fff;
     color: white;
     padding: 15px 50px;
@@ -298,7 +290,7 @@ Services
     border-radius: 40px;
 }
 
-.button-svc a{
+.button-svc a {
     color: #fff;
     text-decoration: none;
 }
@@ -320,7 +312,6 @@ Product Hero
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 0px 0px;
     background-color: #ECEFF1;
- 
 }
 
 .product-arrow-left {
@@ -330,7 +321,6 @@ Product Hero
     margin: 0px 0px 0px 0px;
     padding: 325px 0px 0px 25px;
     float: left;
-
 }
 
 .prod-image {
@@ -339,7 +329,6 @@ Product Hero
     margin: auto;
     padding: 75px 0px 0px 0px;
     float: left;
-
 }
 
 .prod-cont {
@@ -349,7 +338,6 @@ Product Hero
     margin: auto;
     padding: 225px 25px 0px 35px;
     float: left;
-
 }
 
 .product-arrow-right {
@@ -359,8 +347,8 @@ Product Hero
     margin: 0px 0px 0px 0px;
     padding: 325px 0px 0px 0px;
     float: left;
-
 }
+
 
 /*/////////////////////////////////////////////////////////////////////////////////////
 Value
@@ -382,7 +370,6 @@ Value
     padding: 0px 0px 0px 20px;
     background-color: #0C6;
     /* border: 1px dotted #333; */
-
 }
 
 .val-container {
@@ -394,7 +381,6 @@ Value
     background-color: #0C6;
     float: left;
     /* border: 1px dotted #333; */
-
 }
 
 .val-row-butt {
@@ -404,7 +390,6 @@ Value
     padding: 60px 0px 0px 0px;
     background-color: #0C6;
     /* border: 1px dotted #333; */
-
 }
 
 
@@ -420,8 +405,7 @@ Partners
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #f5f5f5;
-    border-bottom: 1px solid #BDBDBD; 
-
+    border-bottom: 1px solid #BDBDBD;
 }
 
 .part-row-h {
@@ -430,8 +414,6 @@ Partners
     width: 100%;
     padding: 65px 0px 30px 0px;
     background-color: #f5f5f5;
-
-
 }
 
 .part-row {
@@ -440,8 +422,6 @@ Partners
     width: 100%;
     padding: 35px 0px 30px 0px;
     background-color: #f5f5f5;
-
-
 }
 
 .part-container {
@@ -454,9 +434,8 @@ Partners
     margin: 0px;
     padding: 0px;
     background-color: #fff;
-
-
 }
+
 
 /* .sep {
     text-align: center;
@@ -478,6 +457,7 @@ Partners
 
 */
 
+
 /*/////////////////////////////////////////////////////////////////////////////////////
 Contact
 //////////////////////////////////////////////////////////////////////////*/
@@ -489,7 +469,6 @@ Contact
     padding: 50px 0px 0px 0px;
     background-color: #fff;
     /* border: 1px dotted #333; */
-
 }
 
 .contact-row {
@@ -499,8 +478,6 @@ Contact
     padding: 10px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
     background-color: #fff;
-
-
 }
 
 .contact-box {
@@ -512,7 +489,6 @@ Contact
     padding: 0px 0px 0px 0px;
     background-color: #fff;
     /* border: 1px dotted #333; */
-
 }
 
 input[type="text"] {
@@ -549,12 +525,12 @@ textarea {
 }
 
 textarea:focus, input:focus {
-  border: 1px solid #09F;
-  background-color: #fff;
+    border: 1px solid #09F;
+    background-color: #fff;
 }
 
 .button-cont {
-    background-color: #0099FF; 
+    background-color: #0099FF;
     border: 0px solid #fff;
     color: white;
     padding: 15px 75px;
@@ -569,7 +545,7 @@ textarea:focus, input:focus {
     border-radius: 40px;
 }
 
-.button-cont a{
+.button-cont a {
     color: #fff;
     text-decoration: none;
 }
@@ -577,7 +553,6 @@ textarea:focus, input:focus {
 .button-cont a:hover {
     color: #ECEFF1;
 }
-
 
 
 /*/////////////////////////////////////////////////////////////////////////////////////
@@ -616,29 +591,32 @@ footer {
     /* border: 1px dotted #333; */
 }
 
-.social-img img{
+.social-img img {
     max-width: 24px;
     margin: 65px 0px 0px 25px;
     padding: 0px 0px 0px 0px;
     float: left;
 }
 
-.nav{
+.nav {
     list-style: none;
     margin: 0;
     padding: 10;
     text-align: right;
 }
-.nav li{
+
+.nav li {
     display: inline-block;
 }
-.nav a{
-    display:inline-block;
+
+.nav a {
+    display: inline-block;
     margin: 0px 0px 0px 0px;
     padding: 15px 5px 10px 5px;
     color: #fff;
     text-decoration: none;
 }
+
 a:hover {
     color: #ECEFF1;
 }
@@ -659,13 +637,12 @@ Pop-Over Form
     display: none;
 }
 
-.close-row { 
+.close-row {
     text-align: right;
     height: 100px;
     width: 100%;
     padding: 10px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
-
 }
 
 .form-row {
@@ -676,7 +653,6 @@ Pop-Over Form
     margin: 50px 0px 0px 0px;
 }
 
-
 .form-box {
     display: inline-block;
     text-align: center;
@@ -685,83 +661,37 @@ Pop-Over Form
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     /* border: 1px dotted #333; */
-
 }
 
-.service-row {
+.sched-row {
     display: inline-block;
     text-align: center;
-    height: 350px;
+    height: 300px;
     width: 85%;
     margin: 10px 0px 10px 0px;
     padding: 25px 0px 0px 0px;
     border: 1px solid #ECEFF1;
     border-radius: 5px;
     background-color: #ECEFF1;
-
 }
 
-.service-box {
+.div-sep {
+    height: 200px;
+    margin: auto;
+    border-left: 1px dotted #BDBDBD;
+    float: left;
+}
+.sched-box {
     font-family: 'Open Sans', sans-serif;
     color: #999;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
-    line-height: 125%;
+    line-height: 150%;
     display: inline-block;
     text-align: left;
     height: 250px;
-    width: 29%;
-    margin: 0px 10px 0px 10px;
-    padding: 0px 0px 0px 15px;
-    border: 1px dotted #333; 
+    width: 33%;
+    margin: auto;
+    padding: 25px 0px 0px 25px;
     float: left;
 }
-
-/*input[type="radio"] {
-    display:none;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
