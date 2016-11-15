@@ -12,8 +12,8 @@ c[○ - ○]כ
     <meta charset="UTF-8">
 
     <title>Welnys 2.0 - Working Proto</title>
-    <meta name="description" content="Welnys - Do something good"/>
-    <meta name="keywords" content="massage chair,massager,massage therapist,massage heights,massage app,massage nyc,massage nearby,massage now,kanye,squadgoals,blessed"/>
+    <meta name="description" content="Welnys - Do something good" />
+    <meta name="keywords" content="massage chair,massager,massage therapist,massage heights,massage app,massage nyc,massage nearby,massage now,kanye,squadgoals,blessed" />
 
     <link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="css/reset.css" media="screen" type="text/css" />
@@ -53,25 +53,37 @@ c[○ - ○]כ
                     <div class="sched-row">
                         <h3 class="h3">Schedule preferences:</h3><br>
                         <div class="sched-box">
-                            <input type="checkbox" name="day" value="Monday">Monday<br>
-                            <input type="checkbox" name="day" value="Tuesday">Tuesday<br>
-                            <input type="checkbox" name="day" value="Wednesday">Wednesday<br>
-                            <input type="checkbox" name="day" value="Thursday">Thursday<br>
-                            <input type="checkbox" name="day" value="Friday">Friday<br>
+                            <input type="checkbox" name="day" id="monday" value="Monday">
+                            <label for="monday">Monday</label><br>
+                            <input type="checkbox" name="day" id="tuesday" value="Tuesday">
+                            <label for="tuesday">Tuesday</label><br>
+                            <input type="checkbox" name="day" id="wednesday" value="Wednesday">
+                            <label for="wednesday">Wednesday</label><br>
+                            <input type="checkbox" name="day" id="thursday" value="Thursday">
+                            <label for="thursday">Thursday</label><br>
+                            <input type="checkbox" name="day" id="friday" value="Friday">
+                            <label for="friday">Friday</label><br>
                         </div>
                         <div class="div-sep">
                         </div>
                         <div class="sched-box">
-                            <input type="checkbox" name="time" value="Morning">Morning 8am-12pm<br>
-                            <input type="checkbox" name="time" value="Afternoon">Afternoon 12pm-4pm<br>
-                            <input type="checkbox" name="time" value="Evening">Evening 4pm-8pm<br>
+                            <input type="checkbox" name="day" id="morning" value="Morning">
+                            <label for="morning">Morning 8am-12pm</label><br>
+                            <input type="checkbox" name="day" id="afternoon" value="Afternoon">
+                            <label for="afternoon">Afternoon 12pm-4pm</label><br>
+                            <input type="checkbox" name="day" id="morning" value="Evening">
+                            <label for="evening">Evening 4pm-8pm</label><br>
                         </div>
                         <div class="div-sep">
                         </div>
                         <div class="sched-box">
-                            <input type="radio" name="freq" value="Weekly"><label for="CSS">Weekly</label><br>
-                            <input type="radio" name="freq" value="Bi-Weekly"><label for="JS">Bi-Weekly</label><br>
-                            <input type="radio" name="freq" value="Monthly"><label for="PHP">Monthly</label><br>
+                            <input type="radio" name="freq" id="weekly" value="Weekly">
+                            <label for="weekly">Weekly</label><br>
+                            <input type="radio" name="freq" id="weekly" value="Weekly">
+                            <label for="bi-weekly">Bi-Weekly</label><br>
+                            <input type="radio" name="freq" id="weekly" value="Weekly">
+                            <label for="monthly">Monthly</label><br>
+
                         </div>
                     </div>
 
@@ -173,21 +185,52 @@ c[○ - ○]כ
         <div class="product-arrow-left">
             <a href="#" class="left"><img src="./images/left-arrow.png" alt="#" height="25" width="15"></a>
         </div>
-        <div class="prod-hero-box">
-
-            <div class="prod-image">
-                <img src="./images/product.png" alt="#" max-width="350px">
-            </div>
-            <div class="prod-cont">
-                <h3><span id="bold">Secure:</span> only users with an email address matching your domain can see your wellness offerings. <br><br> <span id="bold">Booking:</span> employees can reserve spaces in wellness classes. </h3>
-            </div>
-
-            <div class="product-arrow-right">
-                <a href="#" class="right"><img src="./images/right-arrow.png" alt="#" height="29" width="15"></a>
-            </div>
-
+        <div class="product-arrow-right">
+            <a href="#" class="right"><img src="./images/right-arrow.png" alt="#" height="29" width="15"></a>
         </div>
-    </div>
+
+        <div class="prod-window">
+            <div class="prod-wrap">
+                <div class="prod-hero-box">
+
+                    <div class="prod-image">
+                        <img src="./images/product.png" alt="#" max-width="350px">
+                    </div>
+                    <div class="prod-cont">
+                        <h3><span id="bold">Secure:</span> only users with an email address matching your domain can see your wellness offerings. <br><br> <span id="bold">Booking:</span> employees can reserve spaces in wellness classes. </h3>
+                    </div>
+
+                </div>
+                <div class="prod-hero-box">
+
+                    <div class="prod-image">
+                        <img src="./images/product.png" alt="#" max-width="350px">
+                    </div>
+                    <div class="prod-cont">
+                        <h3><span id="bold">Secure:</span> only users with an email address matching your domain can see your wellness offerings. <br><br> <span id="bold">Booking:</span> employees can reserve spaces in wellness classes. </h3>
+                    </div>
+
+                </div>
+                <div class="prod-hero-box">
+
+                    <div class="prod-image">
+                        <img src="./images/product.png" alt="#" max-width="350px">
+                    </div>
+                    <div class="prod-cont">
+                        <h3><span id="bold">Secure:</span> only users with an email address matching your domain can see your wellness offerings. <br><br> <span id="bold">Booking:</span> employees can reserve spaces in wellness classes. </h3>
+                    </div>
+                </div>
+                <div class="prod-hero-box">
+
+                    <div class="prod-image">
+                        <img src="./images/product.png" alt="#" max-width="350px">
+                    </div>
+                    <div class="prod-cont">
+                        <h3><span id="bold">Secure:</span> only users with an email address matching your domain can see your wellness offerings. <br><br> <span id="bold">Booking:</span> employees can reserve spaces in wellness classes. </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="value">
@@ -224,26 +267,32 @@ c[○ - ○]כ
 
         <div class="part-row">
 
-            <div class="part-container">
-            </div>
+          <div class="part-container">
+            <img src="./images/pp.png" alt="#" width="250px">
+          </div>
 
-            <div class="part-container">
-            </div>
+          <div class="part-container">
+            <img src="./images/pp.png" alt="#" width="250px">
+          </div>
 
-            <div class="part-container">
-            </div>
+          <div class="part-container">
+            <img src="./images/pp.png" alt="#" width="250px">
+          </div>
 
         </div>
 
         <div class="part-row">
 
             <div class="part-container">
+              <img src="./images/pp.png" alt="#" width="250px">
             </div>
 
             <div class="part-container">
+              <img src="./images/pp.png" alt="#" width="250px">
             </div>
 
             <div class="part-container">
+              <img src="./images/pp.png" alt="#" width="250px">
             </div>
 
         </div>

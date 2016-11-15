@@ -58,6 +58,7 @@ h1 {
     font-weight: lighter;
     color: #fff;
     font-size: 64px;
+    letter-spacing: 1.5px;
     margin: 0;
 }
 
@@ -66,6 +67,7 @@ h2 {
     font-weight: lighter;
     color: #fff;
     font-size: 32px;
+    letter-spacing: 1px;
     padding: 15px 0px 20px 0px;
 }
 
@@ -74,6 +76,7 @@ h3 {
     font-weight: lighter;
     color: #757575;
     font-size: 28px;
+    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -129,7 +132,7 @@ p {
     font-weight: lighter;
     text-decoration: none;
     color: #fff;
-    font-size: 64px;
+    font-size: 48px;
     margin: 0;
     padding: 25px 35px 0px 0px;
 }
@@ -323,9 +326,26 @@ Product Hero
     float: left;
 }
 
+.prod-window {
+    width: 875px;
+    margin: auto;
+    float: left;
+    overflow: hidden;
+}
+
+.prod-wrap {
+    width: 4800px;
+    float: left;
+}
+
+.prod-hero-box {
+    width: 1200px;
+    float: left;
+}
+
 .prod-image {
     height: 600px;
-    width: 35%;
+    width: 33%;
     margin: auto;
     padding: 75px 0px 0px 0px;
     float: left;
@@ -334,7 +354,7 @@ Product Hero
 .prod-cont {
     text-align: left;
     height: 600px;
-    width: 55%;
+    width: 33%;
     margin: auto;
     padding: 225px 25px 0px 35px;
     float: left;
@@ -346,7 +366,7 @@ Product Hero
     width: 5%;
     margin: 0px 0px 0px 0px;
     padding: 325px 0px 0px 0px;
-    float: left;
+    float: right;
 }
 
 
@@ -425,15 +445,12 @@ Partners
 }
 
 .part-container {
-    background-image: url("../images/pp.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
     display: inline-block;
     height: 100px;
     width: 25%;
     margin: 0px;
     padding: 0px;
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 
@@ -574,7 +591,6 @@ footer {
 }
 
 .copy p {
-    height: 300px;
     width: 50%;
     margin: 65px 0px 0px 25px;
     padding: 0px 0px 0px 0px;
@@ -583,7 +599,6 @@ footer {
 }
 
 .socials {
-    height: 300px;
     width: 15%;
     margin: 0px 25px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -628,8 +643,9 @@ Pop-Over Form
 
 .info-form {
     z-index: 10;
-    position: absolute;
-    height: 5000px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -681,6 +697,7 @@ Pop-Over Form
     border-left: 1px dotted #BDBDBD;
     float: left;
 }
+
 .sched-box {
     font-family: 'Open Sans', sans-serif;
     color: #999;
