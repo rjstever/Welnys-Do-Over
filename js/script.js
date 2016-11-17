@@ -60,7 +60,7 @@ $( document ).ready(function() {
 		 if(leftVal !== "0px") {
 			 $('.prod-wrap').animate({
 				 marginLeft: "+=1200",
-			 }, 500);
+			 }, 600);
 		 }
 	 });
 
@@ -70,7 +70,7 @@ $( document ).ready(function() {
 		 if(leftVal !== "-3600px") {
 			 $('.prod-wrap').animate({
 				 marginLeft: "-=1200",
-			 }, 500);
+			 }, 1800);
 		 }
 	 });
 

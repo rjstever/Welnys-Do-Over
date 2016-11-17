@@ -106,10 +106,26 @@ p {
     font-weight: 200;
     color: #333;
     font-size: 16px;
+    line-height: 1.2;
     margin: 10;
 }
 
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.7);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #p-val {
+    animation: bounceIn 1s;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     color: #fff;
@@ -261,7 +277,7 @@ Services
     text-align: center;
     height: 300px;
     width: 100%;
-    margin: 15px 0px 50px 0px;
+    margin: 15px 0px 25px 35px;
     padding: 0px;
     background-color: #fff;
     /*    border: 1px dotted #333;    */
@@ -269,9 +285,9 @@ Services
 
 .svc-container {
     height: 300px;
-    width: 30%;
-    margin: 0px 10px 0px 10px;
-    padding: 50px 20px 0px 20px;
+    width: 28%;
+    margin: 0px 15px 0px 15px;
+    padding: 80px 20px 0px 20px;
     background-color: fff;
     line-height: 1.1;
     float: left;
@@ -315,6 +331,7 @@ Product Hero
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 0px 0px;
     background-color: #ECEFF1;
+    border-top: 1px solid #BDBDBD;
 }
 
 .product-arrow-left {
@@ -354,7 +371,7 @@ Product Hero
 .prod-cont {
     text-align: left;
     height: 600px;
-    width: 33%;
+    width: 38%;
     margin: auto;
     padding: 225px 25px 0px 35px;
     float: left;
@@ -454,7 +471,7 @@ Partners
 }
 
 
-/* .sep {
+ .sep {
     text-align: center;
     height: 25px;
     width: 100%;
@@ -467,7 +484,7 @@ Partners
     width: 80%;
     margin: auto;
     padding: 0px 0px 0px 0px;
-    border-bottom: 2px dotted #BBDEFB;
+    border-left: 2px dotted #BBDEFB;
 
 
 }
@@ -483,7 +500,7 @@ Contact
     height: 750px;
     width: 100%;
     margin: 0px 0px 0px 0px;
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: #fff;
     /* border: 1px dotted #333; */
 }
@@ -492,7 +509,7 @@ Contact
     text-align: center;
     height: 750px;
     width: 100%;
-    padding: 10px 0px 10px 0px;
+    padding: 100px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
     background-color: #fff;
 }
@@ -592,7 +609,7 @@ footer {
 
 .copy p {
     width: 50%;
-    margin: 65px 0px 0px 25px;
+    margin: 80px 0px 0px 25px;
     padding: 0px 0px 0px 0px;
     color: #fff;
     float: left;
@@ -600,15 +617,15 @@ footer {
 
 .socials {
     width: 15%;
-    margin: 0px 25px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     float: right;
     /* border: 1px dotted #333; */
 }
 
 .social-img img {
-    max-width: 24px;
-    margin: 65px 0px 0px 25px;
+    max-width: 20px;
+    margin: 80px 15px 0px 0px;
     padding: 0px 0px 0px 0px;
     float: left;
 }
@@ -641,7 +658,26 @@ a:hover {
 Pop-Over Form
 //////////////////////////////////////////////////////////////////////////*/
 
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .info-form {
+    animation: fadeIn 1.3s;
     z-index: 10;
     position: fixed;
     height: 100%;
